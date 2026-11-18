@@ -14,7 +14,6 @@ stl.textContent="@keyframes dMelt{0%{transform:none}60%{transform:scale(1.1,.5) 
 ".fxe{font-size:40px;display:block;position:absolute;left:0;right:0;top:-6px;animation:wob 1s infinite}";
 document.head.appendChild(stl);
 
-/* ---------- данные ---------- */
 var NS=[["Сухой песок","🏜️","#e0c27a"],["Мокрый песок","🟫","#a8864f"],["Глина","🧱","#b5651d"],["Мука","🌾","#f5efe0"],["Какао","☕","#5a3825"],["Мёд","🍯","#e8a317"],["Спирт","🍸","#dff"],["Перекись","🧴","#cdeaff"],["Сода","🥄","#f4f4f4"],["Желе","🍮","#ff77aa"],["Опилки","🪵","#c49a6c"],["Гравий","🪨","#888"]];
 var SAND=S.length,WET=SAND+1;
 NS.forEach(function(a){S.push({n:a[0],e:a[1],c:a[2]})});
